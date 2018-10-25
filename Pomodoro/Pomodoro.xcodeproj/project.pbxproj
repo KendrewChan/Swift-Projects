@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A35103411FC6B3D100498048 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35103401FC6B3D100498048 /* SecondView.swift */; };
+		A35103431FC6B3E300498048 /* EditGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35103421FC6B3E300498048 /* EditGoalsView.swift */; };
+		A36E35DF1F6E25B80055D339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A36E35DD1F6E25B80055D339 /* Main.storyboard */; };
+		A3C4948E20162E120002C5F6 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C4948D20162E120002C5F6 /* PageViewController.swift */; };
+		A3E2ADB91F63DFAE005D1C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E2ADB81F63DFAE005D1C64 /* AppDelegate.swift */; };
+		A3E2ADBB1F63DFAF005D1C64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E2ADBA1F63DFAF005D1C64 /* ViewController.swift */; };
+		A3E2ADC01F63DFAF005D1C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E2ADBF1F63DFAF005D1C64 /* Assets.xcassets */; };
+		A3E2ADC31F63DFAF005D1C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E2ADC11F63DFAF005D1C64 /* LaunchScreen.storyboard */; };
+		A3F2B4E41FCE6F6500A3DBF6 /* clockWiseTimer.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4E31FCE6F6500A3DBF6 /* clockWiseTimer.png */; };
+		A3F2B4EA1FCE6FB500A3DBF6 /* daniel-roe-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4E51FCE6FB500A3DBF6 /* daniel-roe-2.jpg */; };
+		A3F2B4EB1FCE6FB500A3DBF6 /* darkBlueGradient2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4E61FCE6FB500A3DBF6 /* darkBlueGradient2.jpg */; };
+		A3F2B4EC1FCE6FB500A3DBF6 /* editIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4E71FCE6FB500A3DBF6 /* editIcon2.png */; };
+		A3F2B4ED1FCE6FB500A3DBF6 /* gradientBlue2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4E81FCE6FB500A3DBF6 /* gradientBlue2.jpg */; };
+		A3F2B4F01FCEB5FD00A3DBF6 /* dottedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F2B4EF1FCEB5FD00A3DBF6 /* dottedCircle.png */; };
+		A3FC94B41F9DCB4D0029E3F3 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3FC94B31F9DCB4D0029E3F3 /* EditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A35103401FC6B3D100498048 /* SecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		A35103421FC6B3E300498048 /* EditGoalsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGoalsView.swift; sourceTree = "<group>"; };
+		A36E35DE1F6E25B80055D339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3C4948D20162E120002C5F6 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A3E2ADB51F63DFAE005D1C64 /* Pomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3E2ADB81F63DFAE005D1C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3E2ADBA1F63DFAF005D1C64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3E2ADBF1F63DFAF005D1C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3E2ADC21F63DFAF005D1C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3E2ADC41F63DFAF005D1C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F2B4E31FCE6F6500A3DBF6 /* clockWiseTimer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = clockWiseTimer.png; path = PomodoroAssets/clockWiseTimer.png; sourceTree = SOURCE_ROOT; };
+		A3F2B4E51FCE6FB500A3DBF6 /* daniel-roe-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "daniel-roe-2.jpg"; path = "PomodoroAssets/daniel-roe-2.jpg"; sourceTree = SOURCE_ROOT; };
+		A3F2B4E61FCE6FB500A3DBF6 /* darkBlueGradient2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = darkBlueGradient2.jpg; path = PomodoroAssets/darkBlueGradient2.jpg; sourceTree = SOURCE_ROOT; };
+		A3F2B4E71FCE6FB500A3DBF6 /* editIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = editIcon2.png; path = PomodoroAssets/editIcon2.png; sourceTree = SOURCE_ROOT; };
+		A3F2B4E81FCE6FB500A3DBF6 /* gradientBlue2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gradientBlue2.jpg; path = PomodoroAssets/gradientBlue2.jpg; sourceTree = SOURCE_ROOT; };
+		A3F2B4EF1FCEB5FD00A3DBF6 /* dottedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dottedCircle.png; path = PomodoroAssets/dottedCircle.png; sourceTree = SOURCE_ROOT; };
+		A3FC94B31F9DCB4D0029E3F3 /* EditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3E2ADB21F63DFAE005D1C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A351033C1FC574E000498048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3E2ADAC1F63DFAE005D1C64 = {
+			isa = PBXGroup;
+			children = (
+				A3E2ADB71F63DFAE005D1C64 /* Pomodoro */,
+				A3E2ADB61F63DFAE005D1C64 /* Products */,
+				A351033C1FC574E000498048 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A3E2ADB61F63DFAE005D1C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3E2ADB51F63DFAE005D1C64 /* Pomodoro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3E2ADB71F63DFAE005D1C64 /* Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				A3E2ADB81F63DFAE005D1C64 /* AppDelegate.swift */,
+				A36E35DD1F6E25B80055D339 /* Main.storyboard */,
+				A3F2B4DE1FCAC48A00A3DBF6 /* TimerView */,
+				A3F2B4DD1FCAC47300A3DBF6 /* GoalsView */,
+				A3E2ADBF1F63DFAF005D1C64 /* Assets.xcassets */,
+				A3E2ADC11F63DFAF005D1C64 /* LaunchScreen.storyboard */,
+				A3E2ADC41F63DFAF005D1C64 /* Info.plist */,
+				A3F2B4DC1FCAC43500A3DBF6 /* Images */,
+				A3C4948D20162E120002C5F6 /* PageViewController.swift */,
+			);
+			path = Pomodoro;
+			sourceTree = "<group>";
+		};
+		A3F2B4DC1FCAC43500A3DBF6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A3F2B4EF1FCEB5FD00A3DBF6 /* dottedCircle.png */,
+				A3F2B4E31FCE6F6500A3DBF6 /* clockWiseTimer.png */,
+				A3F2B4E51FCE6FB500A3DBF6 /* daniel-roe-2.jpg */,
+				A3F2B4E61FCE6FB500A3DBF6 /* darkBlueGradient2.jpg */,
+				A3F2B4E71FCE6FB500A3DBF6 /* editIcon2.png */,
+				A3F2B4E81FCE6FB500A3DBF6 /* gradientBlue2.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		A3F2B4DD1FCAC47300A3DBF6 /* GoalsView */ = {
+			isa = PBXGroup;
+			children = (
+				A3FC94B31F9DCB4D0029E3F3 /* EditView.swift */,
+				A35103421FC6B3E300498048 /* EditGoalsView.swift */,
+			);
+			name = GoalsView;
+			sourceTree = "<group>";
+		};
+		A3F2B4DE1FCAC48A00A3DBF6 /* TimerView */ = {
+			isa = PBXGroup;
+			children = (
+				A3E2ADBA1F63DFAF005D1C64 /* ViewController.swift */,
+				A35103401FC6B3D100498048 /* SecondView.swift */,
+			);
+			name = TimerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3E2ADB41F63DFAE005D1C64 /* Pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3E2ADC71F63DFAF005D1C64 /* Build configuration list for PBXNativeTarget "Pomodoro" */;
+			buildPhases = (
+				A3E2ADB11F63DFAE005D1C64 /* Sources */,
+				A3E2ADB21F63DFAE005D1C64 /* Frameworks */,
+				A3E2ADB31F63DFAE005D1C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pomodoro;
+			productName = Pomodoro;
+			productReference = A3E2ADB51F63DFAE005D1C64 /* Pomodoro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3E2ADAD1F63DFAE005D1C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = testtest;
+				TargetAttributes = {
+					A3E2ADB41F63DFAE005D1C64 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = HZVU9G8322;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A3E2ADB01F63DFAE005D1C64 /* Build configuration list for PBXProject "Pomodoro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3E2ADAC1F63DFAE005D1C64;
+			productRefGroup = A3E2ADB61F63DFAE005D1C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3E2ADB41F63DFAE005D1C64 /* Pomodoro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3E2ADB31F63DFAE005D1C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F2B4E41FCE6F6500A3DBF6 /* clockWiseTimer.png in Resources */,
+				A3E2ADC31F63DFAF005D1C64 /* LaunchScreen.storyboard in Resources */,
+				A3F2B4EB1FCE6FB500A3DBF6 /* darkBlueGradient2.jpg in Resources */,
+				A36E35DF1F6E25B80055D339 /* Main.storyboard in Resources */,
+				A3F2B4F01FCEB5FD00A3DBF6 /* dottedCircle.png in Resources */,
+				A3F2B4ED1FCE6FB500A3DBF6 /* gradientBlue2.jpg in Resources */,
+				A3E2ADC01F63DFAF005D1C64 /* Assets.xcassets in Resources */,
+				A3F2B4EC1FCE6FB500A3DBF6 /* editIcon2.png in Resources */,
+				A3F2B4EA1FCE6FB500A3DBF6 /* daniel-roe-2.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3E2ADB11F63DFAE005D1C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3FC94B41F9DCB4D0029E3F3 /* EditView.swift in Sources */,
+				A3E2ADBB1F63DFAF005D1C64 /* ViewController.swift in Sources */,
+				A35103431FC6B3E300498048 /* EditGoalsView.swift in Sources */,
+				A3C4948E20162E120002C5F6 /* PageViewController.swift in Sources */,
+				A3E2ADB91F63DFAE005D1C64 /* AppDelegate.swift in Sources */,
+				A35103411FC6B3D100498048 /* SecondView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A36E35DD1F6E25B80055D339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A36E35DE1F6E25B80055D339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3E2ADC11F63DFAF005D1C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3E2ADC21F63DFAF005D1C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3E2ADC51F63DFAF005D1C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E2ADC61F63DFAF005D1C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3E2ADC81F63DFAF005D1C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = HZVU9G8322;
+				INFOPLIST_FILE = Pomodoro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KCStudios.PomodoroBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3E2ADC91F63DFAF005D1C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = HZVU9G8322;
+				INFOPLIST_FILE = Pomodoro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KCStudios.PomodoroBlue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3E2ADB01F63DFAE005D1C64 /* Build configuration list for PBXProject "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E2ADC51F63DFAF005D1C64 /* Debug */,
+				A3E2ADC61F63DFAF005D1C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3E2ADC71F63DFAF005D1C64 /* Build configuration list for PBXNativeTarget "Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3E2ADC81F63DFAF005D1C64 /* Debug */,
+				A3E2ADC91F63DFAF005D1C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3E2ADAD1F63DFAE005D1C64 /* Project object */;
+}
