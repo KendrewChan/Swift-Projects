@@ -26,11 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         self.navigationItem.largeTitleDisplayMode = UINavigationItem.LargeTitleDisplayMode.automatic
         
-        tableView.delegate = self
-        tableView.dataSource = self
-        let tableHeight: CGFloat = 50
-        tableView.rowHeight = tableHeight
-        tableView.sectionHeaderHeight = tableHeight
+        setTableView()
         
         initialFetch()
         updateTitle()
@@ -129,6 +125,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Dispose of any resources that can be recreated.
     }
     
+    func setTableView() {
+        tableView.delegate = self
+        tableView.dataSource = self
+        let tableHeight: CGFloat = 50
+        tableView.rowHeight = tableHeight
+        tableView.sectionHeaderHeight = tableHeight
+    }
+    
     func initialFetch() {
         let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
         fetchRequest.sortDescriptors = [NSSortDescriptor(key: "edited", ascending: false), NSSortDescriptor(key: "dailySpending", ascending: false)] //sorting according to date
@@ -146,21 +150,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func updateTitle() {
-        monthlySpending = 0.0
+        monthlySpending = 0.00
         let fetchRequest: NSFetchRequest<Item> = Item.fetchRequest()
         do {
             let results = try context.fetch(fetchRequest)
             let items = results as [Item]
             for i in items {
-                monthlySpending += Double(String(format: "%.2f", i.dailySpending))!
+//                monthlySpending += Double(String(format: "%.2f", i.dailySpending))!
+                monthlySpending += i.dailySpending
             }
         } catch {
             fatalError("Failed to fetch entities: \(error)")
         }
-        let navBar = UINavigationBar.appearance()
-        navBar.tintColor = UIColor.white
-        navBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
-        navigationItem.title = "Spent: $\(monthlySpending)"
+//        let navBar = UINavigationBar.appearance()
+//        navBar.tintColor = UIColor.white
+//        navBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+//        navigationItem.title = "Spent: $\(monthlySpending)"
+        navigationItem.title = String(format: "Spent: $%.2f", monthlySpending)
     }
     
     func controllerWillChangeContent(_ controller: NSFetchedResultsController<NSFetchRequestResult>) {

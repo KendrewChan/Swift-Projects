@@ -18,9 +18,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
         let navigationBar = UINavigationBar.appearance()
+        let newRed = UIColor(red: 255/255, green: 48/255, blue: 48/255, alpha: 1.0)
 //        navigationBar.prefersLargeTitles = true
-        //        navigationController?.navigationBar.backgroundColor = UIColor(red: 244/255, green: 106/255, blue: 78/255, alpha: 1.0)
-        navigationBar.barTintColor = UIColor(red: 255/255, green: 48/255, blue: 48/255, alpha: 1.0)
+        navigationBar.barTintColor = newRed
+        navigationBar.backgroundColor = newRed
         navigationBar.tintColor = UIColor.white
         navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
         navigationBar.largeTitleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
